@@ -1,0 +1,23 @@
+{
+	"auto_format": {
+        "config": {
+            "format_on_save": true,
+            "format_on_paste": false
+        },
+        "python": ["isort", "black"],
+        "json": "jsbeautifier",
+        "php": {
+            "uid": "phpcsfixer"
+        },
+        "html": {
+            "uid": "jsbeautifier",
+            "exclude_syntaxes": {
+                "html": ["markdown"]
+            }
+        },
+    },
+  "custom_file_extensions": {
+    "sublime-settings": "json",
+    "sublime-keymap": "json"
+  }
+}

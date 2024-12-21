@@ -1,0 +1,9 @@
+{
+	"ignored_packages": ["Vintage",
+	],
+	"index_files": true,
+	"font_face": "Inconsolata",
+	"font_size": 14,
+	"ensure_newline_at_eof_on_save": true,
+	"console_max_history_lines": 3000,
+}

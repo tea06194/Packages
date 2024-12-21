@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"FileManager",
+		"JsPrettier",
+		"LSP",
+		"LSP-gopls",
+		"LSP-some-sass",
+		"LSP-typescript",
+		"Origami",
+		"OrigamiEmacs",
+		"Package Control",
+		"Sass",
+		"Terminus",
+	],
+}

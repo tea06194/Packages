@@ -1,0 +1,28 @@
+[
+    {
+        "keys": ["alt+`"],
+        "command": "show_panel",
+        "args": {
+            "panel": "console",
+            "toggle": true
+        }
+    },
+    {
+        "keys": ["ctrl+`"],
+        "command": "toggle_terminus_panel",
+        "args": {
+            "cwd": "${file_path:${folder}}",
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i"],
+            "panel_name": "Terminus"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+`"],
+        "command": "terminus_open",
+        "args": {
+            "cwd": "${file_path:${folder}}",
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i"]
+        }
+    },
+    { "keys": ["ctrl+f1"], "command": "focus_side_bar" }
+]
