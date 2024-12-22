@@ -1,12 +1,11 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
+	"in_process_packages": [
 	],
-	"installed_packages":
-	[
+	"installed_packages": [
 		"Emmet",
 		"FileManager",
+		"GitGutter",		
 		"JsPrettier",
 		"LSP",
 		"LSP-gopls",

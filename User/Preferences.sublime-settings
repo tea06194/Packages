@@ -11,8 +11,7 @@
 		"Packages/Dictionaries/English (American).dic",
 		"Packages/Dictionaries/Russian.dic"
 	],
-	"added_words":
-	[
+	"added_words": [
 		"dic",
 		"Untracked",
 		"sublimetext",
@@ -21,6 +20,6 @@
 		"Accessor",
 		"accessor",
 		"txt",
-		"ico",
+		"ico"
 	],
 }
