@@ -6,4 +6,21 @@
 	"font_size": 14,
 	"ensure_newline_at_eof_on_save": true,
 	"console_max_history_lines": 3000,
+	"spell_check": true,
+	"dictionary": [
+		"Packages/Dictionaries/English (American).dic",
+		"Packages/Dictionaries/Russian.dic"
+	],
+	"added_words":
+	[
+		"dic",
+		"Untracked",
+		"sublimetext",
+		"Inconsolata",
+		"tsc",
+		"Accessor",
+		"accessor",
+		"txt",
+		"ico",
+	],
 }
