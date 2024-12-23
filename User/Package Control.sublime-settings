@@ -3,13 +3,15 @@
 	"in_process_packages": [
 	],
 	"installed_packages": [
+		"ColorPicker",
 		"Emmet",
-		"FileManager",
-		"GitGutter",		
+		"FileManager",		
+		"GitGutter",
 		"JsPrettier",
 		"LSP",
+		"LSP-css",
 		"LSP-gopls",
-		"LSP-some-sass",
+		"LSP-pylsp",
 		"LSP-typescript",
 		"Origami",
 		"OrigamiEmacs",
