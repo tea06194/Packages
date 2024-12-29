@@ -4,9 +4,8 @@
 	],
 	"installed_packages": [
 		"ColorPicker",
-		"Emmet",
-		"FileManager",		
-		"GitGutter",
+		"FileManager",
+		"GitGutter",		
 		"JsPrettier",
 		"LSP",
 		"LSP-css",
