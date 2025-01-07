@@ -1,9 +1,7 @@
 {
-	"ignored_packages": ["Vintage",
-	],
+	"ignored_packages": ["Vintage"],
 	"index_files": true,
 	"font_face": "Inconsolata",
-	"font_size": 12,
 	"ensure_newline_at_eof_on_save": true,
 	"console_max_history_lines": 3000,
 	"spell_check": true,
@@ -23,4 +21,11 @@
 		"ico"
 	],
 	"theme": "auto",
+
+	"auto_complete": false,
+	"auto_complete_delay": 0,
+	// "auto_complete_commit_on_tab": true,
+	"auto_complete_use_history": true,
+	"auto_complete_cycle": true,
+	"font_size": 13
 }
