@@ -1,0 +1,12 @@
+// Settings in here override those in "LSP-json/LSP-json.sublime-settings"
+
+{
+	"settings": {
+		"userSchemas": [
+			{
+				"fileMatch": ["/**/*.sublime-project"],
+				"uri": "sublime://settings/LSP-json#/definitions/PluginConfig"
+			}
+		]
+	}
+}
