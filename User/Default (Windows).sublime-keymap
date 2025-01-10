@@ -50,7 +50,7 @@
     //         {"key": "selector", "operator": "equal", "operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html, text.xml meta.tag -string -punctuation.definition.tag.begin.xml -meta.scope.between-tag-pair.xml, source.jsx meta.tag -string -punctuation.definition.tag.begin.jsx -meta.scope.between-tag-pair.jsx, source.tsx meta.tag -string -punctuation.definition.tag.begin.tsx -meta.scope.between-tag-pair.tsx", "match_all": true},
     //         {"key": "preceding_text", "operator": "not_regex_contains", "operand": "(?:\\<(?:img|br|hr|meta|link|base|input)\\>[^<]*)|/$"}
     //     ]
-    // }
+    // },
     {
         // "keys": ["ctrl+alt+shift+c"],
         "keys": ["ctrl+space"],
