@@ -7,31 +7,23 @@
             "toggle": true
         }
     },
-    { "keys": ["ctrl+`"], "command": "toggle_terminus_panel" },
+    {
+        "keys": ["ctrl+`"],
+        "command": "toggle_terminus_panel",
+        "args": {
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe"]
+        }
+    },
     {
         "keys": ["ctrl+alt+`"],
         "command": "terminus_open",
         "args": {
-            "cwd": "${file_path:${folder}}"
+            "cmd": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "post_window_hooks": [
+                ["carry_file_to_pane", { "direction": "right" }]
+            ]
         }
     },
-    // {
-    //     "keys": ["ctrl+`"],
-    //     "command": "toggle_terminus_panel",
-    //     "args": {
-    //         "cwd": "${file_path:${folder}}",
-    //         "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i"],
-    //         "panel_name": "Terminus"
-    //     }
-    // },
-    // {
-    //     "keys": ["ctrl+alt+`"],
-    //     "command": "terminus_open",
-    //     "args": {
-    //         "cwd": "${file_path:${folder}}",
-    //         "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i"]
-    //     }
-    // },
     { "keys": ["ctrl+f1"], "command": "focus_side_bar" },
     {
         "keys": ["ctrl+alt+c"],
@@ -45,14 +37,7 @@
             "retain_viewport_position": true
         }
     },
-    // {"keys": [">"], "command": "auto_close_tag", "args": {"prefix": ">"}, "context":
-    //     [
-    //         {"key": "selector", "operator": "equal", "operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html, text.xml meta.tag -string -punctuation.definition.tag.begin.xml -meta.scope.between-tag-pair.xml, source.jsx meta.tag -string -punctuation.definition.tag.begin.jsx -meta.scope.between-tag-pair.jsx, source.tsx meta.tag -string -punctuation.definition.tag.begin.tsx -meta.scope.between-tag-pair.tsx", "match_all": true},
-    //         {"key": "preceding_text", "operator": "not_regex_contains", "operand": "(?:\\<(?:img|br|hr|meta|link|base|input)\\>[^<]*)|/$"}
-    //     ]
-    // },
     {
-        // "keys": ["ctrl+alt+shift+c"],
         "keys": ["ctrl+space"],
         "command": "css_modules_autocomplete",
         "context": [
@@ -63,15 +48,4 @@
             }
         ]
     }
-    // {
-    //     "keys": ["tab"],
-    //     "command": "css_modules_autocomplete",
-    //     "context": [
-    //         {
-    //             "key": "selector",
-    //             "operator": "equal",
-    //             "operand": "meta.jsx.js meta.tag.attributes.js"
-    //         }
-    //     ]
-    // }
 ]
