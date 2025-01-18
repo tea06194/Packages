@@ -1,5 +1,6 @@
 {
-	"ignored_packages": ["Vintage"],
+	"ignored_packages": ["Vintage",
+	],
 	"index_files": true,
 	"font_face": "Inconsolata",
 	"ensure_newline_at_eof_on_save": true,
@@ -27,5 +28,5 @@
 	// "auto_complete_commit_on_tab": true,
 	"auto_complete_use_history": true,
 	"auto_complete_cycle": true,
-	"font_size": 13
+	"font_size": 10,
 }
