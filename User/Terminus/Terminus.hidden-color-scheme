@@ -8,7 +8,7 @@
         "green": "#009900",
         "brown": "#999966",
         "blue": "#0066cc",
-        "magenta": "#cc66cc",
+        "magenta": "#883399",
         "cyan": "#009999",
         "white": "#ababab",
         "light_black": "color(#ababab l(+ 15%))",
@@ -16,7 +16,7 @@
         "light_green": "color(#009900 l(+ 15%))",
         "light_brown": "color(#999966 l(+ 15%))",
         "light_blue": "color(#0066cc l(+ 15%))",
-        "light_magenta": "color(#cc66cc l(+ 15%))",
+        "light_magenta": "color(#883399 l(+ 15%))",
         "light_cyan": "color(#009999 l(+ 15%))",
         "light_white": "#fffffe",
         "caret": "#303030"

@@ -1,0 +1,11 @@
+{
+	"gutter_icons": false,
+	"show_unmatched": true,
+	"bracket_styles": {
+        "default": {
+            "color": "brackethighlighter",
+            "style": "solid"
+        }
+    },
+    "search_threshold": 50000,
+}

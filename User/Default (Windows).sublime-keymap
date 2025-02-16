@@ -47,5 +47,7 @@
                 "operand": "meta.jsx.js meta.tag.attributes.js"
             }
         ]
-    }
+    },
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+alt+b"], "command": "build" }
 ]

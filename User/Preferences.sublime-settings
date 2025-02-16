@@ -1,5 +1,6 @@
 {
 	"ignored_packages": [
+		"LSP-yaml",
 		"Vintage",
 	],
 	"index_files": true,
@@ -30,7 +31,7 @@
 	"auto_complete_use_history": true,
 	"auto_complete_cycle": true,
 	"font_size": 11,
-	"color_scheme": "Ra Spring.sublime-color-scheme",
+	"color_scheme": "Ra Spring Mod Tea.sublime-color-scheme",
 	"dark_theme": "Adaptive.sublime-theme",
 	"light_theme": "Adaptive.sublime-theme",
 	"scroll_speed": 0.5,

@@ -3,7 +3,9 @@
 	"in_process_packages": [
 	],
 	"installed_packages": [
+		"BracketHighlighter",
 		"ColorPicker",
+		"Compare Side-By-Side",
 		"FileManager",
 		"GitGutter",
 		"JsPrettier",
@@ -25,5 +27,6 @@
 		"Ra Spring",
 		"Sass",
 		"Terminus",
+		"YamlPipelines",
 	],
 }
