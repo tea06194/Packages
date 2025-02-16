@@ -4,7 +4,8 @@
 		"Vintage",
 	],
 	"index_files": true,
-	"font_face": "Inconsolata",
+	// "font_face": "Inconsolata", for dark
+	"font_face": "GeistMono",
 	"ensure_newline_at_eof_on_save": true,
 	"console_max_history_lines": 3000,
 	"spell_check": true,
@@ -30,7 +31,7 @@
 	// "auto_complete_commit_on_tab": true,
 	"auto_complete_use_history": true,
 	"auto_complete_cycle": true,
-	"font_size": 11,
+	"font_size": 9,
 	"color_scheme": "Ra Spring Mod Tea.sublime-color-scheme",
 	"dark_theme": "Adaptive.sublime-theme",
 	"light_theme": "Adaptive.sublime-theme",
