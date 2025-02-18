@@ -49,5 +49,6 @@
         ]
     },
     { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
-    { "keys": ["ctrl+alt+b"], "command": "build" }
+    { "keys": ["ctrl+alt+b"], "command": "build" },
+    { "keys": ["alt+m"], "command": "max_pane" },
 ]
